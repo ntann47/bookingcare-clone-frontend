@@ -1,0 +1,101 @@
+.home-footer {
+  .home-main-footer-container {
+    width: 100%;
+    height: auto;
+    background-color: #efefef;
+
+    .home-main-footer-main-content {
+      margin: 0 45px;
+      padding: 15px 0;
+      display: flex;
+
+      ul {
+        list-style: none;
+      }
+      .home-main-footer-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 16px;
+        .home-main-footer-list {
+          font-size: 14px;
+          color: #45c3d2;
+          .home-main-footer-item {
+            padding: 6px 0;
+          }
+        }
+      }
+      .home-main-footer-left {
+        .footer-logo {
+          height: 35px;
+          width: 160px;
+          background: url(https://bookingcare.vn/assets/icon/bookingcare-2020.svg)
+            center center no-repeat;
+          cursor: pointer;
+        }
+        .footer-company-name {
+          margin-top: 16px;
+          font-size: 15px;
+        }
+        .footer-main-address {
+          font-size: 15px;
+        }
+        .footer-main-permission {
+        }
+        .footer-permission-img-wrapper {
+          margin-top: 25px;
+          .footer-permission-img {
+            height: 30px;
+            width: auto;
+          }
+        }
+      }
+      .home-main-footer-more-item {
+        margin: 16px 0;
+        font-size: 14px;
+        .home-main-footer-more-item-title {
+        }
+        .home-main-footer-more-item-content {
+        }
+      }
+      .home-main-footer-download {
+        font-size: 14px;
+      }
+      .footer-icon {
+        margin-right: 6px;
+      }
+    }
+    .home-main-footer-download {
+      margin: 0 45px;
+      padding: 15px 0;
+      border-top: 1px solid #ccc;
+      a {
+        color: #45c3d2;
+        text-decoration: none;
+      }
+    }
+    .footer-icon {
+      margin-right: 6px;
+    }
+  }
+  .home-sub-footer-container {
+    padding: 10px;
+    color: #fff;
+    background-color: #64b9e5;
+    font-size: 0.9rem;
+    .home-sub-footer-content {
+      padding: 10px 40px;
+      display: flex;
+      justify-content: space-between;
+      .home-sub-footer-copyright {
+      }
+      .home-sub-footer-social {
+        .home-sub-footer-social-img {
+          width: 32px;
+          height: 32px;
+          margin: 4px;
+        }
+      }
+    }
+  }
+}

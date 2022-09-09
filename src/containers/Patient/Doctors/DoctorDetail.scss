@@ -1,0 +1,61 @@
+.doctor-detail-container {
+  padding-top: 45px;
+  width: 100%;
+  min-height: 100vh;
+  .doctor-detail-content {
+    .doctor-intro {
+      margin: 15px 45px;
+      display: flex;
+
+      .content-left {
+        .doctor-img {
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 135px;
+          height: 135px;
+          border-radius: 50%;
+        }
+      }
+      .content-right {
+        padding-left: 15px;
+        .doctor-name {
+          font-size: 2rem;
+          font-weight: bold;
+        }
+        .doctor-description {
+          color: #555;
+          font-size: 13px;
+        }
+        // .facebook-actions {
+        //   .action-btn {
+        //     background-color: #1877f2;
+        //     height: 20px;
+        //   }
+        // }
+      }
+    }
+    .doctor-detail-main {
+      width: 100%;
+      height: auto;
+
+      .doctor-schedule {
+        display: flex;
+        margin: 0px 45px 20px 45px;
+        height: auto;
+        .doctor-schedule-left {
+          width: 50%;
+        }
+        .doctor-schedule-right {
+          width: 50%;
+        }
+      }
+      .doctor-detail {
+        background-color: #f9f9f9;
+        padding: 15px 45px;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+      }
+    }
+  }
+}

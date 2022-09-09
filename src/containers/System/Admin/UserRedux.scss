@@ -1,0 +1,40 @@
+.user-redux-container {
+  .user-redux-body {
+    .load-img-container {
+      .load-img {
+        padding: 5px;
+        border-radius: 3px;
+        background-color: #ddd;
+        cursor: pointer;
+        min-width: 50px;
+
+        .fa-upload {
+          margin-left: 8px;
+        }
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+      .image-view {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        border: 1px solid #ccc;
+        min-height: 100px;
+        width: auto;
+      }
+    }
+    .button-group {
+      display: flex;
+      justify-content: center;
+      .btn {
+        &.btn-save {
+          margin-right: 10px;
+        }
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}

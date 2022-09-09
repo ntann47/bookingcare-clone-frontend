@@ -1,0 +1,11 @@
+.users-container {
+  margin-top: 50px;
+  .btn {
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+.rc-md-editor .rc-md-navigation .button-wrap .button {
+  height: 45px;
+}

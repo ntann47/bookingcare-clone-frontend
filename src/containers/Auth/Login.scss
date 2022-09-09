@@ -1,0 +1,20 @@
+.login-content{
+    display: flex;
+    justify-content: center;
+
+}
+.login-title{
+    text-align: center;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    .login-btn{
+        min-width: 100px;
+    }
+    
+}
+.error-message {
+    color: rgb(255, 0, 0);
+    padding: 4px 0px;
+}

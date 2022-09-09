@@ -1,0 +1,33 @@
+.manage-doctors-container {
+  padding: 8px;
+  .manage-doctors-title {
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+  }
+  .btn-save {
+    margin: 16px 0;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .doctors-description-container {
+    width: 100%;
+    display: flex;
+    .doctors-selection {
+
+      .doctor-selection {
+    
+      }
+    }
+
+    .doctors-description {
+      width: 50%;
+      .doctors-description-control {
+        width: 100%;
+      }
+    }
+  }
+  .manage-doctors-editor {
+  }
+}

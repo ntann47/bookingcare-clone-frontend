@@ -1,0 +1,88 @@
+.header-home {
+  height: 60px;
+  padding: 10px 0;
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1000;
+  .header-home-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 45px;
+
+    .left-content {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 25%;
+      .header-logo {
+        height: 35px;
+        width: 160px;
+        background: url(https://bookingcare.vn/assets/icon/bookingcare-2020.svg)
+          center center no-repeat;
+        cursor: pointer;
+      }
+      .header-bars {
+        font-size: 20px;
+        color: grey;
+        cursor: pointer;
+        margin-right: 20px;
+      }
+      .footer-icon {
+        margin-right: 6px;
+      }
+    }
+    .center-content {
+      display: flex;
+      align-items: flex-end;
+      width: 50%;
+      position: absolute;
+      left: 300px;
+      bottom: 10px;
+      .header-list {
+        margin: 0;
+        width: 100%;
+        display: inline-flex;
+        list-style: none;
+        justify-content: space-between;
+      }
+      .header-item {
+        margin: 0 10px;
+        cursor: pointer;
+        .item-title {
+          color: #333;
+          font-size: 12px;
+        }
+        .item-description {
+          font-weight: lighter;
+          font-size: 10px;
+          display: block;
+        }
+      }
+    }
+    .right-content {
+      display: flex;
+      align-items: center;
+      width: 25%;
+      justify-content: center;
+      .help-text {
+        margin-right: 50px;
+        cursor: pointer;
+      }
+      .language-title {
+        margin: 0 6px;
+        cursor: pointer;
+        opacity: 0.3;
+        &.action {
+          font-weight: bold;
+          color: #45c3d2;
+          opacity: 1;
+        }
+      }
+    }
+    .header-icon {
+      color: #45c3d2;
+      margin: 0 4px;
+    }
+  }
+}

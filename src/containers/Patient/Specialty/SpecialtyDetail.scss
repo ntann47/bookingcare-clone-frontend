@@ -1,0 +1,129 @@
+.specialty-detail-container {
+  width: 100%;
+  height: auto;
+
+  .specialty-detail-content {
+    height: auto;
+    .specialty-description-container-s {
+      width: 100%;
+      height: auto;
+      background-image: url(https://cdn.bookingcare.vn/fo/2019/12/13/120331-co-xuong-khop.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .specialty-description {
+        width: 100%;
+        height: 215px;
+        background-image: linear-gradient(
+          rgba(255, 255, 255, 0.8),
+          rgba(255, 255, 255, 0.9),
+          rgba(255, 255, 255, 1)
+        );
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .specialty-detail-description-text {
+          width: 1140px;
+          height: 100%;
+          overflow: hidden;
+        }
+        .specialty-doctor-description-action {
+          font-size: 14px;
+          color: #288ad6;
+          padding-top: 5px;
+
+          cursor: pointer;
+        }
+      }
+    }
+    .specialty-description-container-lg {
+      width: 100%;
+      height: auto;
+      background-image: url(https://cdn.bookingcare.vn/fo/2019/12/13/120331-co-xuong-khop.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      .specialty-description {
+        width: 100%;
+        height: auto;
+        background-image: linear-gradient(
+          rgba(255, 255, 255, 0.8),
+          rgba(255, 255, 255, 0.9),
+          rgba(255, 255, 255, 1)
+        );
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .specialty-detail-description-text {
+          width: 1140px;
+          height: auto;
+        }
+        .specialty-doctor-description-action {
+          font-size: 14px;
+          color: #288ad6;
+          padding-top: 5px;
+          padding-left: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+    .specialty-doctors-container {
+      background-color: #eee;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .specialty-doctors-filter {
+        width: 120px;
+        height: 30px;
+        align-self: flex-start;
+        margin-left: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        select {
+          padding: 6px 12px;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.5;
+          color: #212529;
+          background-color: #fff;
+          border: 1px solid #ced4da;
+          border-radius: 0.25rem;
+        }
+      }
+      .specialty-doctor-container {
+        width: 1140px;
+        height: auto;
+
+        .specialty-doctor {
+          display: flex;
+
+          width: 100%;
+          min-height: 350px;
+          background-color: #fff;
+          box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+          border-radius: 8px;
+          border-bottom: none;
+          margin-bottom: 10px;
+          .specialty-doctor-content {
+            width: 50%;
+            .specialty-doctor-schedule {
+              padding-left: 15px;
+              color: #555555;
+            }
+            .specialty-doctor-extra {
+              color: #555555;
+            }
+          }
+          .specialty-doctor-description {
+            padding: 15px;
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+}

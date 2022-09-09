@@ -1,0 +1,56 @@
+.about-container {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  border-bottom: 3px solid #efeef5;
+  .about-header {
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    .about-title {
+      padding: 15px 0px 5px 5px;
+      font-weight: 600;
+    }
+  }
+  .about-item-container {
+    display: flex;
+    .outer-about {
+      width: 565px;
+      height: 150px;
+      display: flex;
+      .about-vid-wrapper {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    .about-vid {
+      padding-left: 57px;
+    }
+    .about-others {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .about-others-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        list-style: none;
+        .about-others-item {
+          .about-others-img {
+            margin: 8px;
+            width: 150px;
+            height: auto;
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

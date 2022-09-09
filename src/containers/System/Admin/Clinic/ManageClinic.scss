@@ -1,0 +1,14 @@
+.manage-specialty-container {
+  padding: 8px;
+  .manage-specialty-title {
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+  }
+  .btn-save {
+    margin: 16px 0;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

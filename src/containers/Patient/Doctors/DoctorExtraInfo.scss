@@ -1,0 +1,94 @@
+.doctor-extra-container {
+  width: 100%;
+  float: left;
+  border-top: none;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  .border-left {
+    border-left: 1px solid #eee;
+  }
+  .content-up {
+    font-size: 14px;
+    .address-title {
+      text-transform: uppercase;
+
+      color: #666;
+      font-weight: bold;
+    }
+    .clinic-name {
+      padding: 3px 0;
+      font-weight: bold;
+    }
+    .clinic-address {
+      padding: 3px 0;
+    }
+  }
+  .content-down {
+    .price-container {
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+      margin-top: 10px;
+      .price-content-hidden {
+        .price-title {
+          text-transform: uppercase;
+          font-size: 14px;
+          color: #666;
+          font-weight: bold;
+        }
+        .price-inline {
+          margin: 0 8px;
+        }
+        .hide-price {
+          color: #45c3d2;
+          text-decoration: none;
+          cursor: pointer;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      .price-content-showed {
+        width: 90%;
+        .price-title {
+          margin-bottom: 10px;
+          text-transform: uppercase;
+          font-size: 14px;
+          color: #666;
+          font-weight: bold;
+        }
+        .price-wrap {
+          border: 1px solid #ddd;
+          border-radius: 3px;
+          .price-content {
+            padding: 3px;
+            .price-label {
+            }
+            .price-title-wrap {
+              vertical-align: top;
+              display: flex;
+              justify-content: space-between;
+            }
+          }
+          .content-down-message {
+            border-top: 1px solid #ddd;
+            background: #f8f8f8;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 3px;
+            padding-right: 32px;
+          }
+        }
+        .hide-price {
+          margin-top: 10px;
+          color: #45c3d2;
+          text-decoration: none;
+          cursor: pointer;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+.header-banner {
+  height: auto;
+  background: url(../../../assets/images/bookingcare-cover-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 45px;
+  .background-banner {
+    height: 100%;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(255, 255, 255, 0.1)
+    );
+
+    .content-up {
+      height: 50%;
+      .title {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px #333;
+        padding-top: 45px;
+        .first-title {
+        }
+        .second-title {
+          font-weight: 600;
+        }
+      }
+      .search-container {
+        display: flex;
+        justify-content: center;
+        .search {
+          display: flex;
+          align-items: center;
+          background: #f7d800;
+          color: #fff;
+          outline: none;
+          border-radius: 25px;
+          border: 1px solid transparent;
+          // line-height: 50px;
+          width: 450px;
+          height: 50px;
+          padding-left: 50px;
+          padding-right: 25px;
+          position: relative;
+        }
+        .search-input {
+          background: transparent;
+          outline: none;
+          border: none;
+          width: 100%;
+          font-size: 1.2rem;
+        }
+        .search-icon {
+          width: 1rem;
+          height: 1rem;
+          line-height: 50px;
+          position: absolute;
+          top: 17px;
+          left: 15px;
+          color: #333;
+          text-align: center;
+        }
+      }
+    }
+    .app-container {
+      display: flex;
+      justify-content: center;
+      margin: 60px 0;
+      .app-apple {
+        width: auto;
+        height: 35px;
+        margin-left: 10px;
+      }
+      .app-google {
+        width: auto;
+        height: 35px;
+        margin-right: 10px;
+      }
+    }
+    .content-down {
+      height: 50%;
+      // border: 1px solid #333;
+      display: flex;
+      justify-content: center;
+
+      padding-top: 30px;
+      padding-bottom: 20px;
+      background-image: linear-gradient(
+        rgba(255, 255, 255, -0.9),
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 1)
+      );
+
+      .options {
+        // margin-top: 150px;
+        .header-options-list {
+          width: 80%;
+          margin: 0 auto;
+          list-style: none;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          .options-item {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            min-width: 150px;
+            font-size: 17px;
+            text-align: center;
+            padding: 5px 5px;
+            color: #333;
+            display: inline-block;
+            position: relative;
+            font-weight: bold;
+          }
+          .options-icon-wrap {
+            width: 100%;
+            background: #fff;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin: 2px auto;
+            display: flex;
+            align-items: center;
+          }
+          .options-icon {
+            margin: 0 auto;
+            color: #45c3d2;
+          }
+          .options-title {
+            font-weight: 600;
+            &:hover {
+              color: #45c3d2;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

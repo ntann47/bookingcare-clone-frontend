@@ -1,0 +1,54 @@
+.booking-modal-container {
+  .booking-modal-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    border-bottom: 1px solid #eee;
+
+    .booking-modal-title {
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .booking-modal-close {
+    }
+    .booking-modal-icon {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+  .booking-modal-body {
+
+    overflow: scroll;
+    .booking-modal-content {
+      padding: 16px 16px;
+      height: auto;
+      border-bottom: 1px solid #eee;
+      .doctor-schedule-info {
+        color: #555;
+        .booking-title {
+          padding-top: 8px;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        .schedule-info {
+          text-transform: uppercase;
+        }
+      }
+      .patient-info-container{
+        padding-top: 32px;
+      }
+    }
+    .booking-modal-footer {
+      padding: 16px 16px;
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      .btn {
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
